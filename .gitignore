@@ -1,5 +1,5 @@
 # =====================
-# Data & datasets
+# Data (NEVER upload)
 # =====================
 data/
 *.csv
@@ -9,9 +9,6 @@ data/
 *.cif
 *.tsv
 
-# but keep code splits scripts
-!splits/*.py
-
 # =====================
 # Logs
 # =====================
@@ -19,21 +16,12 @@ data/
 logs/
 
 # =====================
-# Outputs
+# Outputs / experiments
 # =====================
 output_*/
 results/
 checkpoints/
 runs/
-
-# =====================
-# Models
-# =====================
-*.pt
-*.pth
-*.ckpt
-*.bin
-*.safetensors
 
 # =====================
 # Cache
@@ -46,3 +34,12 @@ __pycache__/
 # =====================
 .venv/
 env/
+
+# =====================
+# Model weights
+# =====================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
