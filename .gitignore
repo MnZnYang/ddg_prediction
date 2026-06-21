@@ -1,0 +1,48 @@
+# =====================
+# Data & datasets
+# =====================
+data/
+*.csv
+*.fasta
+*.fa
+*.pdb
+*.cif
+*.tsv
+
+# but keep code splits scripts
+!splits/*.py
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# Outputs
+# =====================
+output_*/
+results/
+checkpoints/
+runs/
+
+# =====================
+# Models
+# =====================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# =====================
+# Cache
+# =====================
+__pycache__/
+*.pyc
+
+# =====================
+# Env
+# =====================
+.venv/
+env/
